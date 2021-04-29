@@ -13,6 +13,7 @@ import org.apache.spark.storage.StorageLevel
  */
 object WeatherChallenge extends App {
 
+  //Change this directory accordingly before running the code
   val ROOT_DIR = "/Users/prakarsh/Desktop/paytmteam-de-weather-challenge-beb4fc53605c"
 
   val spark = SparkSession.builder
