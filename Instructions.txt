@@ -1,0 +1,17 @@
+I am not adding the CSV files in this repo.
+
+This project can be compiled using SBT. Make sure you have SBT installed.
+Before compiling, pealse change the paths for the CSV files in the code. Otherwise, I would have provided the JAR file too.
+
+To compile:
+sbt compile
+
+Once it compiles, package it as follows:
+sbt package
+
+Once you have your jar file ready, you can do a spark-submit like this:
+spark-submit --class com.paytm.interview.WeatherChallenge /Users/prakarsh/projects/paytmchallenge/target/scala-2.11/paytmchallenge_2.11-0.1.jar
+
+Of course you need spark installed :)
+
+Thank you!
